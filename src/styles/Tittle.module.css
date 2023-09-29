@@ -1,0 +1,18 @@
+
+
+.boxTittle{
+    padding: 200px 80px 0 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 200px;
+
+
+
+
+}
+
+.createLine{
+    width: 100%;
+    border-top: 1px solid white;
+}

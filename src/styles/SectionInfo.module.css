@@ -1,0 +1,178 @@
+.sectionInfo{
+    color: blue;
+    font-size: 48px;
+     font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    padding-top:30px;
+    line-height: 1;
+    flex-direction: column;
+
+
+
+}
+.sectionInfo div{
+
+}
+.sectionInfoBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.activeImg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -moz-transform: rotate(-8deg);
+-webkit-transform: rotate(-8deg);
+-o-transform: rotate(-8deg);
+-ms-transform: rotate(-8deg);
+transform: rotate(-8deg);
+}
+.activeImg span{
+    font-size: 56px;
+}
+
+.activeImg div{
+    position: absolute;
+    top: 10;
+    left: -30;
+
+}
+
+
+
+.t{
+    font-size: 60px;
+}
+
+.l{
+    font-size: 36px;
+}
+.info{
+    position: absolute;
+
+
+    top: 110px;
+    left: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+.info h1{
+    position: relative;
+    margin: 0;
+}
+.info h1::before{
+    content: '|';
+   position: absolute;
+   top: 70px;
+   left: 50px;
+   font-size: 20px;
+   font-weight: 900;
+    color: white;
+}
+.info div{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.info p{
+    margin: 0;
+    padding-top: 30px;
+}
+.info div{
+    width: 500px;
+}
+
+.btnContainer{
+    margin: 145px 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width: 900px) {
+    .info h1{
+
+        font-size: 48px;
+    }
+    .info p{
+        padding-top: 10px;
+        font-size: 36px;
+    }
+    .activeImg{
+        width: 300px;
+    }
+    .info{
+        position: absolute;
+
+
+        top: 250px;
+        left: 200px;
+        color: white;
+        display: flex;
+        justify-content: center;
+
+        flex-direction: column;
+
+    }
+    .sectionInfoBox{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .info h1::before{
+        content: '|';
+       position: absolute;
+       top: 30px;
+       left: 24px;
+        font-size: 12px;
+       font-size: 20px;
+       font-weight: 900;
+        color: white;
+    }
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .info h1{
+
+        font-size: 36px;
+    }
+    .info p{
+        padding-top: 10px;
+        font-size: 24px;
+    }
+    .activeImg{
+
+        display: none;
+    }
+    .info{
+        position: absolute;
+
+
+        top: 100px;
+        left: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+
+        flex-direction: column;
+
+    }
+    .sectionInfoBox{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+  }

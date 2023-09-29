@@ -1,0 +1,30 @@
+.formBoxSend{
+
+        position: fixed;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color: black;
+        font-size: 24px;
+        padding: 80px 45px;
+        width: 560px;
+        animation: formContainer 1s ease 0s 1 normal none;
+    }
+
+    .formTaskSend{
+        position: fixed;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color: black;
+        font-size: 24px;
+        padding: 80px 45px;
+        width: 560px;
+        animation: formContainer 1s ease 0s 1 normal none;
+    }

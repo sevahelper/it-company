@@ -1,0 +1,26 @@
+.navigation{
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.ul{
+    display: flex;
+}
+
+
+.ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    transition: color .4s;
+}
+
+li a:hover{
+    color: #0366ff;
+}

@@ -1,0 +1,163 @@
+.taskForm{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+  margin-top: 10px;
+    width: 600px;
+    align-items: start;
+ }
+
+ .taskFormInput{
+  width: 100%;
+    padding: 20px 5px;
+
+    display: block;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+
+
+.taskFormInput:focus{
+  outline: none;
+}
+
+
+.taskForm button{
+  color: #fff;
+  border: 2px solid #3366ff;
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: TildaSans;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+
+.formInput input{
+  background-color: transparent;
+}
+
+.telTaskContainer div:nth-child(1)>input{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid white;
+
+
+}
+.formInput{
+  width: 50px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+
+.formInput:focus{
+  outline: none;
+}
+
+.containerBoxTel{
+  width: 100%;
+
+}
+.containerBoxTel>input{
+ width: 100%;
+}
+
+.containerBoxTel select{
+  width: 50px;
+}
+
+.containerBoxTel img{
+  height: 20px;
+  width: 20px;
+}
+
+.containerBoxTel svg{
+  width: 50px;
+  width: 50px;
+}
+.containerBoxTel div:not(:first-child){
+ border: none;
+  background-color: transparent;
+
+}
+
+.containerBoxTel div:nth-child(1)>input{
+  border: none;
+  padding-left: 30px;
+  background-color: transparent;
+
+}
+.containerBoxTel div:nth-child(2){
+padding: 0;
+
+}
+
+.formInput div{
+  border: none;
+  background-color: transparent;
+  left:2px;
+
+}
+.formInput div:focus{
+
+  background-color: transparent;
+
+
+}
+
+.formInput>.flag-dropdown >.selected-flag>div>.arrow{
+  left: 0;
+}
+
+.formInput input{
+
+  background-color: transparent;
+
+}
+@keyframes errorForm {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.errorForm{
+  position: absolute;
+  right: 20px;
+  bottom: -100px;
+  background-color: white;
+  width:auto;
+  height: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-size: 24px;
+  animation: errorForm 1s ease 0s 1 normal forwards;
+  margin: 10px 0;
+}
+
+.errorForm div{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+
+@media screen and (max-width:900px) {
+  .taskForm{
+   width: 400px;
+   margin-right: 10px;
+  }
+}

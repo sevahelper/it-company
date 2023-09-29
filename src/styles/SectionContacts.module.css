@@ -1,0 +1,58 @@
+.contactsContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin:150px 0px 100px 0px;
+}
+
+.socialBox{
+    font-size: 52px;
+    font-weight: 900;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+
+}
+
+.socialBtn{
+    border: 3px solid blue;
+    border-radius: 30px;
+
+    font-size: 18px;
+    margin: 10px 0;
+    transition: all .4s;
+}
+.socialBtn a{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 40px;
+}
+
+.socialBox h2{
+padding: 10px 0;
+
+}
+
+.socialBox p{
+padding: 10px 0;
+
+}
+
+.socialBtn:hover{
+    background-color: blue;
+}
+
+@media screen and (max-width: 900px) {
+    .socialBox{
+        font-size: 36px;
+    }
+    .socialBtn{
+        border: 3px solid blue;
+        border-radius: 30px;
+        padding: 5px 20px;
+        font-size: 14px;
+        margin: 10px 0;
+        transition: all .4s;
+    }
+  }

@@ -1,0 +1,68 @@
+.container{
+    margin:120px 0;
+    position: relative;
+    display: flex;
+	flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim 2s ease 0s 1 normal none;
+}
+
+
+@keyframes container {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(32px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+
+
+.container img{
+	width: 40px;
+  height: 42px;
+}
+
+@media screen and(max-width:900px) {
+    .container img{
+		width: 25px;
+	  height: 25px;
+	}
+ }
