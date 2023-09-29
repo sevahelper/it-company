@@ -9,7 +9,7 @@ export function SectionContacts() {
     setTask(value);
   };
   return (
-    <div id="services" className={style.contactsContainer}>
+    <div id="contacts" className={style.contactsContainer}>
       <div className={style.socialBox}>
         <h2>Контакты</h2>
         <p>+7928 441 65 94</p>
